@@ -24,5 +24,5 @@ def test_fifth_power():
     assert fifth_power(3) == 243, "Test Failed: Fifth power of 3 should be 243"
     
 def test_invalid_input():
-    with pytest.raises("TypeError"):
+    with pytest.raises(TypeError):
         square("string")
